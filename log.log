@@ -1,0 +1,96 @@
+---Application started at:Tue Jun 29 22:58:30 EET 2021
+LoadTime:947.0ms
+HeapSize:21MB
+---Application started at:Tue Jun 29 22:58:43 EET 2021
+LoadTime:974.0ms
+HeapSize:21MB
+---Application started at:Tue Jun 29 22:58:55 EET 2021
+LoadTime:970.0ms
+HeapSize:21MB
+---Application started at:Tue Jun 29 23:00:12 EET 2021
+LoadTime:996.0ms
+HeapSize:21MB
+---Application started at:Tue Jun 29 23:01:37 EET 2021
+LoadTime:982.0ms
+HeapSize:21MB
+---Application started at:Tue Jun 29 23:22:10 TRT 2021
+LoadTime:2178.0ms
+HeapSize:45MB
+---Application started at:Tue Jun 29 23:22:50 TRT 2021
+LoadTime:1987.0ms
+HeapSize:45MB
+---Application started at:Tue Jun 29 23:24:47 TRT 2021
+LoadTime:2175.0ms
+HeapSize:45MB
+---Application started at:Tue Jun 29 23:25:06 TRT 2021
+LoadTime:2177.0ms
+HeapSize:45MB
+---Application started at:Tue Jun 29 23:52:25 EET 2021
+LoadTime:1037.0ms
+HeapSize:20MB
+---Application started at:Wed Jun 30 00:06:14 EET 2021
+LoadTime:973.0ms
+HeapSize:20MB
+---Application started at:Wed Jun 30 01:26:10 EET 2021
+LoadTime:1008.0ms
+HeapSize:21MB
+---Application started at:Wed Jun 30 01:36:31 EET 2021
+LoadTime:1127.0ms
+HeapSize:21MB
+---Application started at:Wed Jun 30 01:40:17 EET 2021
+LoadTime:966ms
+HeapSize:21MB
+Uptime:773
+StartTime:1625006661548
+---Application started at:Wed Jun 30 01:44:22 EET 2021
+LoadTime:939ms
+HeapSize:21MB
+Uptime:773
+StartTime:1625006681654
+---Application started at:Wed Jun 30 01:44:42 EET 2021
+LoadTime:927ms
+HeapSize:21MB
+Uptime:825
+StartTime:1625007010701
+---Application started at:Wed Jun 30 01:50:11 EET 2021
+Heap ManagementFactory:22020096
+HeapSize:21MB
+Uptime:767
+StartTime:1625007049657
+---Application started at:Wed Jun 30 01:50:50 EET 2021
+Heap ManagementFactory:20
+HeapSize:21MB
+Uptime:783
+StartTime:1625007084451
+---Application started at:Wed Jun 30 01:51:25 EET 2021
+Heap ManagementFactory:20
+NonHeap ManagementFactory:32
+HeapSize:21MB
+Uptime:777
+StartTime:1625007194974
+---Application started at:Wed Jun 30 01:53:15 EET 2021
+Max heap memory is 4086 MBytes
+Used heap memory is 21 MBytes
+Max non-heap memory is 0 MBytes
+Used non-heap memory is 32 MBytes
+HeapSize:21MB
+---Application started at:Wed Jun 30 02:00:08 EET 2021
+Uptime:818
+StartTime:1625007607740
+Max heap memory is 4086 MBytes
+Used non-heap memory is 32 MBytes
+---Application started at:Wed Jun 30 02:00:46 EET 2021
+Uptime:840ms
+StartTime:1625007645764
+Max heap memory is 4086 MBytes
+Used non-heap memory is 32 MBytes
+---Application started at:Wed Jun 30 02:01:34 EET 2021
+Uptime:805ms
+StartTime:Wed Jun 30 02:01:33 EET 2021
+Max heap memory is 4086 MBytes
+Used non-heap memory is 32 MBytes
+-----
+Uptime:781ms
+StartTime:Wed Jun 30 02:02:09 EET 2021
+Max heap memory is 4086 MBytes
+Used non-heap memory is 32 MBytes

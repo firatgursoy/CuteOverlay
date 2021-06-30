@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Digital-7 Mono';
+    src: url('dijital-7-mono.ttf');
+}
+
+.text {
+    -fx-font-smoothing-type: lcd;
+}
+
+#label_cpu_temp,
+#label_cpu_load,
+#label_gpu_temp,
+#label_gpu_load,
+#label_mem_load,
+#label_gpu_fan_load,
+#label_cpu_temp_title,
+#label_cpu_load_title,
+#label_gpu_temp_title,
+#label_gpu_load_title,
+#label_mem_load_title,
+#label_gpu_fan_load_title {
+    -fx-font-family: 'Digital-7 Mono';
+    -fx-font-size: 32px;
+}
+
+#label_application_title {
+    -fx-font-family: 'Digital-7 Mono';
+    -fx-font-size: 20px;
+}

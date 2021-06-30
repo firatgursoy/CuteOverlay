@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<Pane xmlns:fx="http://javafx.com/fxml/1" fx:id="pane_main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+      minWidth="-Infinity" prefHeight="215.0" prefWidth="210.0"
+      style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/15.0.1"
+      fx:controller="com.gnosis.cuteoverlay.Application">
+    <children>
+        <AnchorPane prefHeight="215.0" prefWidth="210.0">
+            <children>
+                <HBox alignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                      AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <VBox fx:id="vbox_inner_pane" alignment="TOP_CENTER" maxHeight="205.0" maxWidth="188.0"
+                              prefHeight="205.0" prefWidth="188.0">
+                            <children>
+                                <HBox alignment="CENTER_LEFT" prefHeight="35.0"
+                                      style="-fx-background-color: black; -fx-border-color: #1aa260;">
+                                    <children>
+                                        <AnchorPane HBox.hgrow="ALWAYS">
+                                            <children>
+                                                <Label fx:id="label_application_title" text="CUTE OVERLAY"
+                                                       textFill="#1aa260" AnchorPane.bottomAnchor="0.0"
+                                                       AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                                                       AnchorPane.topAnchor="0.0">
+                                                    <padding>
+                                                        <Insets left="5.0"/>
+                                                    </padding>
+                                                </Label>
+                                            </children>
+                                        </AnchorPane>
+                                        <ImageView fx:id="image_view_switch" fitHeight="16.0" fitWidth="16.0"
+                                                   pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@switch-false.png"/>
+                                            </image>
+                                            <HBox.margin>
+                                                <Insets right="10.0"/>
+                                            </HBox.margin>
+                                        </ImageView>
+                                        <ImageView fx:id="image_view_exit" fitHeight="16.0" fitWidth="16.0"
+                                                   pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@exit.png"/>
+                                            </image>
+                                            <HBox.margin>
+                                                <Insets right="5.0"/>
+                                            </HBox.margin>
+                                        </ImageView>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets bottom="-1.0" left="-1.0" right="-1.0" top="-1.0"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox alignment="CENTER">
+                                    <children>
+                                        <Label fx:id="label_cpu_temp_title" text="CPU TEMP " textFill="#4c8bf5"/>
+                                        <Label fx:id="label_cpu_temp" text="0_temp" textFill="#de5246"/>
+                                    </children>
+                                    <padding>
+                                        <Insets top="5.0"/>
+                                    </padding>
+                                </HBox>
+                                <HBox alignment="CENTER">
+                                    <children>
+                                        <Label fx:id="label_gpu_temp_title" text="GPU TEMP " textFill="#4c8bf5"/>
+                                        <Label fx:id="label_gpu_temp" text="0_temp" textFill="#de5246"/>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER">
+                                    <children>
+                                        <Label fx:id="label_cpu_load_title" text="CPU LOAD " textFill="#4c8bf5">
+
+                                        </Label>
+                                        <Label fx:id="label_cpu_load" text="0_load" textFill="#de5246">
+
+                                        </Label>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER">
+                                    <children>
+                                        <Label fx:id="label_gpu_load_title" text="GPU LOAD " textFill="#4c8bf5"/>
+                                        <Label fx:id="label_gpu_load" text="0_temp" textFill="#de5246"/>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER">
+                                    <children>
+                                        <Label fx:id="label_mem_load_title" text="MEM LOAD " textFill="#4c8bf5"/>
+                                        <Label fx:id="label_mem_load" text="0_temp" textFill="#de5246"/>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER">
+                                    <children>
+                                        <Label fx:id="label_gpu_fan_load_title" text="GPU  FAN " textFill="#4c8bf5"/>
+                                        <Label fx:id="label_gpu_fan_load" text="0_temp" textFill="#de5246"/>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+            </children>
+        </AnchorPane>
+    </children>
+</Pane>
